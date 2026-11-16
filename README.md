@@ -1,4 +1,4 @@
-# telecom_churn_prediction
+# Telecom_churn_prediction
 #----------Telecom Churn Prediction Project----------
 import pandas as pd
 import numpy as np
@@ -103,3 +103,5 @@ m2 = evaluate("Random Forest", RandomForestClassifier(n_estimators=100, random_s
 # ----------7.Conclusion----------
 print("\nCONCLUSION: Month-to-Month + many support tickets + short tenure = highest churn risk.")
 print("Retention team should contact these customers first.")
+
+
